@@ -7,4 +7,16 @@ class boy:wazazi(){
         println(baba)
     }
 }
-class girl:wazazi()
+class girl:wazazi(){
+    fun msichana(){
+        println(mama)
+    }
+}
+
+fun main(args: Array<String>) {
+    val kijanaobject=boy()
+    kijanaobject.mvulana()
+
+    val msichanaobject=girl()
+    msichanaobject.msichana()
+}
